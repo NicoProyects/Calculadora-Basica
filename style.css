@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+body {
+    background: #333;
+}
+
+.calculadora {    
+    background: #aaa;
+    width: fit-content;  
+    margin: auto;
+    margin-top: 50px;
+}
+
+.pantalla {
+    padding: 18px 18px 0px 18px;
+}
+
+#resultado {
+    background: #000;
+    color: #eee;
+    padding: 6px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.teclas {
+    display: flex;
+}
+
+.numeros {
+    padding: 18px 9px 18px 18px;
+}
+
+.numeros div {
+    text-align: center;
+}
+
+.numeros button {
+    background: #fff;
+    border: none;
+}
+
+.numeros button:hover {
+	box-shadow: 0px 0px 12px rgb(51, 168, 15);
+}
+
+.op {
+    padding: 18px 18px 18px 9px;
+}
+
+.op button {
+    display: block;
+    padding: 9px 15px;
+    width: 54px;
+    height: 54px;
+    background: #222;
+    color: #0f0;
+    font-size: 30px;
+    border: none;
+}
+
+.sr {
+    padding: 0 18px 18px 18px;
+}
+
+.sr button {
+    width: 100%;
+    background: rgb(10, 158, 10);
+    color: #fff;
+    font-size: 50px;
+    border: none;
+    padding: 0;
+}
+
+.sr button:hover {
+    background: rgb(6, 223, 6);
+    transition: background 0.5s;
+}
+
+button {
+	margin: 2px 0px;
+	padding: 15px 24px;
+	font-size: 19px;
+}
